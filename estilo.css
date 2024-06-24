@@ -155,9 +155,8 @@ i{
 }
 .card .aluno-img{
     width: 60%;
-    height: 150px;
     margin-left: 20%;
-    margin-top: 5%;
+
 }
 .card{
     display: flex;
@@ -169,7 +168,7 @@ i{
 .card h1{
     font-size: 1.2rem;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 footer{
 	background-color: #333;
