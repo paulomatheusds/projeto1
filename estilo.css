@@ -36,7 +36,7 @@ ul{
     font-family: Trebuchet MS, sans-serif;
     font-size: 1.3rem;
     color: rgb(46, 46, 46);
-    border-bottom: solid black;
+    border-bottom: solid black 5px;
     
 }
 #home{
@@ -49,12 +49,12 @@ ul{
     padding: 30px;
     background-color: rgba(37, 37, 37, 0.815);
     color: #fff;
-    font-size: 32px;
+    font-size: 50px;
     text-align: center;
     border-radius: 10px;
 }
 .paragrafo-home{
-    font-size: 20px;
+    font-size: 0.7em;
     margin: 20px;
 }
 .linha-home{
@@ -63,14 +63,14 @@ ul{
 }
 .home-bg-image{
     width: 100%;
-    height: 600px;
+    height: 700px;
     object-fit: cover;
 
 }
 
 .modulos-bloco{ 
-    padding: 20px;
-    height: 270px;
+    padding: 50px;
+    height: 350px;
 }
 
 .curso-list{
@@ -86,27 +86,95 @@ ul{
     width: 500px;
     border-radius: 10px;
     box-shadow: 2px 2px 5px black;
+    background-color: rgb(243 243 243);
 }
 
-
-.list-img{
-    display: grid;
-    grid-template-columns: 2fr 1fr 1fr;
-    gap: 1px;
-    justify-content: center;
-    
-}
-.item-img{ /* defini somente a imagem como flex para facilitar a centralizar os icones*/
+ #aulas{
+    align-items: center;
     display: flex;
     justify-content: center;
-}
-.item-img img{
-    height: 450px;
-    object-fit: cover; 
-}
-.item-img .icons{
-    position: absolute;
-    font-size: 50px;
-    color: black;
+    flex-direction: row;
+    gap: 2px;
+    
+ }
+ .bloco{
+    width: 100%;
+    height: 600px;
+    position: relative;
+    background-color: #4a4747;
+ }
 
+ .bloco h2 {
+    text-align: center;
+    margin-top: 50px;
+    color: white;
+ }
+
+.icons1{
+    position: absolute;
+    top: 220px;
+    left: 265px;
+ }
+ .icons2{
+    position: absolute;
+    top: 280px;
+    left: 265px;
+ }
+ .icons3{
+    position: absolute;
+    top: 220px;
+    left: 275px;
+ }
+ .icons4{
+    position: absolute;
+    top: 280px;
+    left: 250px;
+ }
+i{
+    font-size: 50px;
+    position: absolute;
+    color: white;
 }
+
+
+ #aluno{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 100vh;
+    margin-top: 50px;
+    
+}
+.card{
+    background-color: white;
+    width: 300px;
+    height: 350px;
+    border: solid black 1px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0);
+}
+.card .aluno-img{
+    width: 60%;
+    height: 150px;
+    margin-left: 20%;
+    margin-top: 5%;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 150px;
+}
+.card h1{
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 10px;
+}
+footer{
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
+
