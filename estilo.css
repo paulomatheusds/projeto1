@@ -162,13 +162,17 @@ i{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    text-align: center;
     margin-top: 150px;
 }
 .card h1{
     font-size: 1.2rem;
     text-align: center;
     margin-top: 20px;
+}
+.card i{
+    color: red;
+    border: solid blue;
+    text-align: center;
 }
 footer{
 	background-color: #333;
