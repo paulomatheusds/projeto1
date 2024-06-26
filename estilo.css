@@ -233,4 +233,52 @@ footer{
     div, .bloco{
         display: inline;
     }
+    .bloco h2 {
+        text-align: center;
+        margin-left: 190px;
+        margin-top: 50px;
+        color: white;
+     }
+     .icons1{
+        position: absolute;
+        top: 150px;
+        left: 365px;
+     }
+     .icons2{
+        position: absolute;
+        top: 250px;
+        left: 365px;
+     }
+     .icons3{
+        position: absolute;
+        top: 150px;
+        left: 365px;
+     }
+     .icons4{
+        position: absolute;
+        top: 255px;
+        left: 340px;
+     }
+     i{
+        font-size: 50px;
+        position: absolute;
+        color: white;
+        left: 250px;
+    }
+    .card{
+        background-color: white;
+        width: 200px;
+        height: 250px;
+        border: solid black 1px;
+        border-radius: 5px;
+        box-shadow: 5px 5px 10px rgb(0, 0, 0);
+        margin-left: 180px;
+    }
+    footer{
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+        width: 550px;
+    }
 }
