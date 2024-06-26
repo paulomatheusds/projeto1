@@ -1,6 +1,6 @@
 *{
-    padding: 0%;
-    margin: 0%;
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
     font-family: sans-serif;
 }
@@ -181,3 +181,56 @@ footer{
 	text-align: center;
 }
 
+
+@media(max-width: 500px){
+    .site-logo{
+    font-family: sans-serif;
+    font-size: 2rem;
+    color: rgb(0, 0, 0);
+    }
+
+    .home-bg-image{
+    width: 1000vw;
+    height: 500px;
+    object-fit: cover;
+    }
+    .home-title{
+    position: absolute;
+    left: 50%;
+    padding: 15px;
+    background-color: rgba(37, 37, 37, 0.815);
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 5px;
+    }
+    .modulos-bloco{ 
+        padding: 20px;
+        height: 150px;
+        margin-left: 200px;
+    }
+    #aulas{
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 2px;
+        
+     }
+    .bloco {
+        width: 750px;
+        height: 400px;
+        position: relative;
+        background-color: #4a4747;
+    }
+    .curso-list{
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        margin-top: 20px;
+        margin-left: 170px      
+    }
+    div, .bloco{
+        display: inline;
+    }
+}
